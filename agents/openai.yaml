@@ -1,0 +1,9 @@
+interface:
+  display_name: "ez"
+  short_description: "Route each task to a cost-effective model"
+  icon_small: "./assets/ez-icon-small.png"
+  icon_large: "./assets/ez-icon-large.png"
+  brand_color: "#E60000"
+  default_prompt: "Use $ez to choose an appropriate model and reasoning level, then complete my request."
+policy:
+  allow_implicit_invocation: false
