@@ -25,6 +25,7 @@ Add this repository to a local plugin marketplace, install `ez` from the Plugins
 ## Structure
 
 - `plugin.json` - portable plugin identity and public listing metadata
+- `LICENSE` - MIT license
 - `skills/ez/SKILL.md` - routing behavior and execution instructions
 - `skills/ez/agents/openai.yaml` - skill UI metadata and invocation policy
 - `skills/ez/assets/` - header artwork and skill icons

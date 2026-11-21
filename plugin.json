@@ -3,6 +3,7 @@
   "name": "ez",
   "version": "1.0.0",
   "description": "Route Codex tasks to a cost-appropriate model and reasoning level before completing them.",
+  "license": "MIT",
   "keywords": [
     "codex",
     "model-routing",
