@@ -16,13 +16,11 @@ $ez Fix the failing tests in this repository.
 
 ez reports the selected model, reasoning level, rationale, and confidence before delegating the work.
 
+ez pz lemon squeezy.
+
 ## Local installation
 
 Add this repository to a local plugin marketplace, install `ez` from the Plugins Directory, and restart the ChatGPT desktop app. For direct skill development, copy `skills/ez` into a supported skills directory.
-
-## Public distribution
-
-Create a ZIP whose root contains `plugin.json` and `skills/`, then upload it as a new plugin in the OpenAI Plugins dashboard. Resolve automated findings, submit it for review, and publish the approved version to make it discoverable in the shared ChatGPT and Codex plugin directory.
 
 ## Structure
 
