@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ez",
+  "version": "1.0.0",
+  "description": "Route Codex tasks to a cost-appropriate model and reasoning level before completing them.",
+  "keywords": [
+    "codex",
+    "model-routing",
+    "cost-optimization",
+    "reasoning"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ez",
+        "shortDescription": "Route tasks cost-effectively",
+        "longDescription": "ez selects a cost-appropriate Codex model and reasoning level for a requested task, briefly explains the routing choice, and then delegates the original request for completion. It is intended for users who want a simple balance between capability, reasoning effort, and likely execution cost.",
+        "developerName": "ez",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Select a suitable Codex model",
+          "Choose an appropriate reasoning level",
+          "Explain the routing decision",
+          "Delegate and complete the original task"
+        ],
+        "defaultPrompt": [
+          "Choose an efficient execution profile and complete my task.",
+          "Route this task to an appropriate model and reasoning level."
+        ],
+        "brandColor": "#E60000",
+        "composerIcon": "./skills/ez/assets/ez-icon-small.png",
+        "logo": "./skills/ez/assets/ez-icon-large.png"
+      },
+      "publication": {
+        "release_notes": "Initial skills-only release of ez."
+      }
+    }
+  }
+}
